@@ -1,0 +1,18 @@
+# 1. Các file tạm của Jupyter Notebook (Quan trọng nhất)
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# 2. Các file cấu hình hoặc cache của Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# 3. Môi trường ảo (Virtual Environments) nếu bạn có tạo trong thư mục này
+venv/
+.venv/
+env/
+
+# 4. Các file ẩn của hệ điều hành
+.DS_Store
+Thumbs.db
